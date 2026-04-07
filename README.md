@@ -63,13 +63,13 @@
 
 📸 Screenshots
 
-    ![Login Page](https://github.com/Praveen-04-hub/GameHub/blob/main/Screenshots/Login.jpeg)
-    ![Home Page](Screenshots/Home.jpeg)
-    ![Explore](Screenshots/Explore.jpeg)
-    ![Search](Screenshots/Search.jpeg)
-    ![Trending](Screenshots/Trending.jpeg)
-    ![Watchlist](Screenshots/Watchlist.jpeg)
-    ![Reviews](Screenshots/Reviews.jpeg)
+![Login Page](Screenshots/Login.jpeg)
+![Home Page](Screenshots/Home.jpeg)
+![Explore](Screenshots/Explore.jpeg)
+![Search](Screenshots/Search.jpeg)
+![Trending](Screenshots/Trending.jpeg)
+![Watchlist](Screenshots/Watchlist.jpeg)
+![Reviews](Screenshots/Reviews.jpeg)
 
 ⚠️ Limitations
  
