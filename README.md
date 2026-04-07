@@ -79,9 +79,9 @@ https://api.rawg.io/api/games?key=YOUR_API_KEY
 
 👨‍💻 Contributors
 
+    Bonela Praveen Kumar
+    Sanjeev Swain
     Soumya Ranjan Parida
-    Sanjeev
-    Praveen Kumar
 
 📄 License
 
