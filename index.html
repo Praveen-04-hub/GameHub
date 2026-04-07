@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GameHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- 🎬 BACKGROUND -->
+<video autoplay muted loop playsinline class="bg-video">
+  <source src="Background/bg.mp4" type="video/mp4">
+</video>
+<div class="overlay"></div>
+
+<!-- 🔝 NAVBAR -->
+<header class="navbar">
+
+  <div class="logo" onclick="goHome()">GameHub</div>
+
+  <div class="nav-search">
+    <input type="text" id="search" placeholder="Search games..." onkeyup="searchGames()">
+  </div>
+  <div id="searchDropdown" class="search-dropdown hidden"></div>
+
+  <nav class="nav-links">
+    <span onclick="switchTab(event, 'explore')" class="active">Explore</span>
+    <span onclick="switchTab(event, 'trending')">Trending</span>
+    <span onclick="switchTab(event, 'watchlist')">Watchlist</span>
+    <span onclick="toggleAccountMenu()">Account</span>
+  </nav>
+
+</header>
+<div id="accountMenu" class="account-menu hidden">
+  <div onclick="goProfile()">Profile</div>
+  <div onclick="openReviews()"> My Reviews</div>
+  <div onclick="logout()">Logout</div>
+</div>
+
+<!-- 🔽 MAIN -->
+<main>
+
+  <!-- EXPLORE -->
+  <section id="explore" class="page active">
+    <div class="section-header">
+      <h2>Explore Games</h2>
+    </div>
+
+    <div id="gamesGrid" class="grid"></div>
+
+    <div style="text-align:center;">
+      <button onclick="loadMore()" class="load-more">Load More</button>
+    </div>
+  </section>
+
+  <!-- TRENDING -->
+ <section id="trending" class="page">
+  <h2>Trending</h2>
+  <div id="trendingRow" class="row"></div>
+
+  <!-- 🚀 NEW -->
+  <h2 style="margin-top: 30px;">Upcoming</h2>
+  <div id="upcomingRow" class="row"></div>
+</section>
+
+  <!-- WATCHLIST -->
+  <section id="watchlist" class="page">
+    <h2>Your Watchlist</h2>
+    <div id="watchlistGrid" class="grid"></div>
+  </section>
+
+  <section id="reviews" class="page">
+  <h2>Your Reviews</h2>
+  <div id="reviewsGrid" class="grid"></div>
+</section>
+
+
+</main>
+
+<!-- 🎮 GAME DETAILS MODAL (FIXED) -->
+<div id="gameModal" class="modal hidden">
+  <div class="modal-content">
+
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+
+    <div id="modalBody"></div>
+
+  </div>
+</div>
+<div id="gameModal" class="modal hidden">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeModal()">×</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
