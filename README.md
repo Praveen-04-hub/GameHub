@@ -63,7 +63,7 @@
 
 📸 Screenshots
 
-    ![Login Page](Screenshots/Login.jpeg)
+    ![Login Page](https://github.com/Praveen-04-hub/GameHub/blob/main/Screenshots/Login.jpeg)
     ![Home Page](Screenshots/Home.jpeg)
     ![Explore](Screenshots/Explore.jpeg)
     ![Search](Screenshots/Search.jpeg)
